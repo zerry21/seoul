@@ -1,0 +1,39 @@
+footer{
+  width: 100%;
+  height: 8vw;
+  position: relative;
+  border-top: 1px solid #e2e2e2;
+}
+.personal{
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5vw 2.6vw 0 2.6vw;
+  color: #4D4D4D;
+}
+.personal p{
+  font-weight: 500;
+  font-size: 0.78vw;
+}
+.personal p span{
+  color: #1a1a1a;
+}
+
+.txt{
+  font-size: 0.7vw;
+  margin: 2vw 0 0 2.6vw;
+}
+.txt p:nth-of-type(2){
+  font-size: 0.8vw;
+  padding-top: 0.4vw;
+}
+
+.mark{
+  position: absolute;
+  transform: translate(90vw, -4.5vw);
+}
+.mark > img{
+  width: 5.2vw;
+  height: 4vw;
+  margin-left: 1.5vw;
+  margin-bottom: 0.2vw;
+}

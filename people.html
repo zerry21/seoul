@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>서울교통공사 채용정보</title>
+  <link rel="icon" href="img/favicon.ico">
+  <script src="https://kit.fontawesome.com/e04d3f37c6.js" crossorigin="anonymous"></script>
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/header1.css" rel="stylesheet">
+  <link href="css/about2.css" rel="stylesheet">
+  <link href="css/people.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      // 드래그 방지 (이미지, 링크 등)
+      $(document).on('dragstart', function (e) {
+        e.preventDefault();
+      });
+
+      // 텍스트 선택 방지
+      $(document).on('selectstart', function (e) {
+        e.preventDefault();
+      });
+
+      // 우클릭 방지
+      $(document).on('contextmenu', function (e) {
+        e.preventDefault();
+      });
+
+      // Ctrl+C, Ctrl+X, Ctrl+V 방지
+      $(document).on('keydown', function (e) {
+        if (e.ctrlKey && (e.key === 'c' || e.key === 'x' || e.key === 'v')) {
+          e.preventDefault();
+        }
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  <header>
+    <div class="navi">
+      <a href="index.html"><img src="img/logo.png" alt=""></a>
+      <div class="gnb">
+        <ul>
+          <li>이용정보</li>
+          <li>안전환경</li>
+          <li>시민참여</li>
+          <li>알림마당</li>
+          <li>정보공개</li>
+          <li>ESG경영</li>
+          <li>공사소개</li>
+        </ul>
+        <div class="icon">
+          <ul>
+            <li class="hambuger"><i class="fas fa-bars"></i></li>
+            <li><i class="fas fa-search"></i></li>
+            <li><i class="fas fa-sign-in-alt"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="list">
+      <nav>
+        <div class="box">
+          <h4>공사소개</h4>
+        </div>
+        <div class="abox">
+          <article>
+            <p>서울교통공사</p>
+            <i class="far fa-arrow-alt-circle-right"></i>
+          </article>
+          <article>
+            <p>공사이미지</p>
+            <i class="far fa-arrow-alt-circle-right"></i>
+          </article>
+          <article>
+            <p>경영정보</p>
+          </article>
+          <article>
+            <p>인권경영</p>
+          </article>
+          <article>
+            <p>채용정보</p>
+          </article>
+          <article>
+            <p>적극행정</p>
+            <i class="far fa-arrow-alt-circle-right"></i>
+          </article>
+          <article>
+            <p>관련법행 및 사규</p>
+            <i class="far fa-arrow-alt-circle-right"></i>
+          </article>
+          <article>
+            <p>산업현황</p>
+            <i class="far fa-arrow-alt-circle-right"></i>
+          </article>
+        </div>
+        <div class="dbox">
+          <p>서울교통공사 소개</p>
+          <p>사이버 역사관</p>
+        </div>
+      </nav>
+    </div>
+    <div class="menu">
+      <nav>
+        <article>
+          <div class="box">
+            <p>이용정보</p>
+          </div>
+          <p>사이버스테이션</p>
+          <p>실시간열차운행정보</p>
+          <p>간편지연증명서</p>
+          <p>운임제도</p>
+          <p>이용고객 편의시설</p>
+          <p>역시설물 임새폐쇄 현황</p>
+          <p>유실물센터</p>
+        </article>
+        <article>
+          <div class="box">
+            <p>안전환경</p>
+          </div>
+          <p>안전가이드</p>
+          <p>안전보건 경영방침</p>
+          <p>안전관련법령</p>
+          <p>안전보고서</p>
+          <p>안전동영상</p>
+          <p>환경경영</p>
+          <p>안전장비 취급 및 현황</p>
+          <p>지하철테러대응</p>
+          <p>지하철 위생환경</p>
+        </article>
+        <article>
+          <div class="box">
+            <p>시민참여</p>
+          </div>
+          <p>신청센터</p>
+          <p>서울교통공사 견학</p>
+          <p>시민초청 문화이벤트</p>
+          <p>문화스테이션</p>
+          <p>시민안전모니터</p>
+          <p>고객의 소리</p>
+          <p>주민참여예산</p>
+          <p>시민 아이디어</p>
+          <p>고객서비스 현장</p>
+        </article>
+        <article>
+          <div class="box">
+            <p>알림마당</p>
+          </div>
+          <p>공지사항</p>
+          <p>보도자료</p>
+          <p>입찰/계약정보</p>
+          <p>부대사업정보</p>
+          <p>오픈 이노베이션</p>
+          <p>혼잡도</p>
+          <p>이달의 역세권 행사</p>
+          <p>자료실</p>
+        </article>
+        <article>
+          <div class="box">
+            <p>정보공개</p>
+          </div>
+          <p>제도안내</p>
+          <p>사전정보공표</p>
+          <p>공공데이터개방</p>
+          <p>반부패/청렴</p>
+          <p>부조리신고센터</p>
+          <p>개인정보처리방침</p>
+          <p>정보목록</p>
+          <p>정보공개청구</p>
+          <p>결제문서/회의록</p>
+          <p>청탁금지법</p>
+        </article>
+        <article>
+          <div class="box">
+            <p>ESG경영</p>
+          </div>
+          <p>ESG경영</p>
+          <p>ESG 대표성과</p>
+          <p>ESG 경영위원회</p>
+          <p>ESG 경영보고서</p>
+          <p>이해관계자 소통</p>
+          <p>사회공험</p>
+          <p>ESG 채권 발행현황</p>
+        </article>
+        <article>
+          <div class="box">
+            <p><a href="#">공사소개</a></p>
+          </div>
+          <p>서울교통공사</p>
+          <p>공사 이미지</p>
+          <p>경영정보</p>
+          <p>인권경영</p>
+          <p>채용정보</p>
+          <p>적극행정</p>
+          <p>관련법령 및 사규</p>
+          <p>산업현황</p>
+        </article>
+      </nav>
+    </div>
+  </header>
+
+  <section class="tube">
+    <img src="img/tube.png" alt="">
+  </section>
+
+  <section class="main1">
+    <section class="about">
+      <article>
+        <p>서울교통공사</p>
+        <i class="fas fa-chevron-circle-down"></i>
+      </article>
+      <div class="box">
+        <p><a href="introduce.html">서울교통공사 소개</a></p>
+        <p><a href="history.html">사이버 역사관</a></p>
+      </div>
+      <article>
+        <p>공사이미지</p>
+        <i class="fas fa-chevron-circle-down"></i>
+      </article>
+      <article>
+        <p>경영정보</p>
+      </article>
+      <article>
+        <p>인권경영</p>
+      </article>
+      <article>
+        <p>채용정보</a></p>
+      </article>
+      <article>
+        <p>적극행정</p>
+        <i class="fas fa-chevron-circle-down"></i>
+      </article>
+      <article>
+        <p>관련법령 및 사규</p>
+        <i class="fas fa-chevron-circle-down"></i>
+      </article>
+      <article>
+        <p>산업현황</p>
+        <i class="fas fa-chevron-circle-down"></i>
+      </article>
+    </section>
+
+    <section class="people">
+      <section class="cartoon">
+        <h3>만화로 보는 <span>인사제도</span></h3>
+        <img src="img/cartoon.png" alt="">
+        <div class="line"></div>
+      </section>
+
+      <section class="table">
+        <div class="ttxt">
+          <h3>서울교통공사 <span>인재상</span></h3>
+          <p>서울교통공사는 열정과 도전정신을 가진 인재를 환영합니다.</p>
+        </div>
+        <img src="img/table.png" alt="">
+        <div class="line"></div>
+      </section>
+
+      <section class="job">
+        <h3>서울교통공사 <span>채용공고</span></h3>
+        <div class="jbox">
+          <ul>
+            <li>
+              <p><span>1104</span> 서울교통공사 9호선 운영부문 기간게 업무직 공개채용 공고</p>
+              <p>2025-10-17</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <p><span>1103</span> 서해철도(주) 2025년 기간제 업무직(5차) 공개채용 공고</p>
+              <p>2025-10-16</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <p><span>1102</span> 서울교통공사 수서차량사업소 기간제 업무직(조리원) 채용 서류전형 합격자 공고</p>
+              <p>2025-10-14</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <p><span>1101</span> 서울교통공사 사내변호사(전문업무직) 채용 공고</p>
+              <p>2025-10-13</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <p><span>1100</span> 서울메트로환경 안전관리자(육아휴직 대체 기간제) 공개채용 모집공고</p>
+              <p>2025-10-01</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <p><span>1099</span> 서울메트로 사무직(육아휴직 대체 기간제) 공개채용 모집공고</p>
+              <p>2025-10-01</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <p><span>1098</span> 서울메트로환경 공무·경비직 공개채용 모집공고</p>
+              <p>2025-10-01</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <p><span>1097</span> 서울메트로환경 시설직(반장) 공개채용 모집공고</p>
+              <p>2025-10-01</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <p><span>1096</span> 서울메트로환경 사무직(1급, 5급) 공개채용 모집공고</p>
+              <p>2025-10-01</p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <p><span>1095</span> 지티엑스에이운영(주) 임원후보자 모집(재공고)</p>
+              <p>2025-09-29</p>
+            </li>
+          </ul>
+          <div class="jnumber">
+            <ul>
+              <li><i class="fas fa-chevron-left"></i></li>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+              <li><i class="fas fa-chevron-right"></i></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </section>
+  </section>
+
+
+
+  <footer>
+    <div class="personal">
+      <p><span>개인정보처리방침</span> | 여객운송약관 | 사규 제·개정 및 폐기 예고 | 관련 법령 및 사규 | 업무추진비 사용내역 | 찾아오시는 길</p>
+      <p><span>유관기간 사이트</span> <i class="fas fa-plus-circle"></i></p>
+    </div>
+    <div class="txt">
+      <p>04806 서울특별시 성동구 천호대로 346 | 대표전화 1577-1234 <br> ©Copyright 2017. 서울교통공사 All right reserved.</p>
+      <p><strong>바뀌지 않는 가치, 우리의 청렴입니다.</strong></p>
+    </div>
+    <div class="mark">
+      <img src="img/mark.png" alt="">
+    </div>
+  </footer>
+
+
+  <script src="js/about.js"></script>
+  <script src="js/header.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+.history{
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.ghistory > h3{
+  font-size: 1.3vw;
+  font-weight: 700;
+  margin: 3.13vw 0 0 19vw;
+  letter-spacing: 0.03rem;
+}
+.ghistory > h3 span{color: #12298C;}
+
+.ghistory > article{
+  display: flex;
+  gap: 2vw;
+}
+.ghistory > article .himg img{
+  width: 15vw;
+  height: 11vw;
+  border-radius: 1.56vw;
+}
+.ghistory > article .htxt h4{
+  font-size: 0.94vw;
+  font-weight: 700;
+  line-height: 1.82vw;
+  letter-spacing: 0.03rem;
+  padding-top: 0.89vw;
+}
+.ghistory > article .htxt p{
+  font-size: 0.89vw;
+  font-weight: 500;
+  line-height: 1.67vw;
+  letter-spacing: 0.02rem;
+}
+.ghistory > article .htxt p span{color: #4D4D4D;}
+
+.ghistory > article:nth-of-type(1){margin: 2.6vw 0 0 9.9vw;}
+.ghistory > article:nth-of-type(2){margin: 0.7vw 0 0 10.5vw;}
+.ghistory > article:nth-of-type(3){margin: 0.7vw 0 0 9.9vw;}
+.ghistory > article:nth-of-type(4){margin: 0.7vw 0 0 10.5vw;}
+.ghistory > article:nth-of-type(5){margin: 0.7vw 0 0 9.9vw;}
+.ghistory > article:nth-of-type(6){margin: 0.5vw 0 0 10vw;}
+.ghistory > article:nth-of-type(6) .htxt{margin-top: 0.3vw;}
+
+.ghistory .line{
+  width: 42.19vw;
+  height: 0.05vw;
+  background-color: #bfbfbf;
+  margin: 3vw 0 0 5.56vw;
+}
+
+/* transition */
+.transition{width: 75%;}
+.transition > h3{
+  font-size: 1.3vw;
+  font-weight: 700;
+  margin: 3.13vw 0 2.5vw 20.5vw;
+  letter-spacing: 0.03rem;
+}
+
+.transition > .timg img{
+  width: 21%;
+  border-radius: 0.78vw;
+}
+.transition > .timg{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5vw;
+  margin: 0 0 3vw 2vw;
+}

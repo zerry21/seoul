@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>서울교통공사</title>
+  <link rel="icon" href="img/favicon.ico">
+  <script src="https://kit.fontawesome.com/e04d3f37c6.js" crossorigin="anonymous"></script>
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/header.css" rel="stylesheet">
+  <link href="css/backgound.css" rel="stylesheet">
+  <link href="css/notice.css" rel="stylesheet">
+  <link href="css/event.css" rel="stylesheet">
+  <link href="css/footer.css" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      // 드래그 방지 (이미지, 링크 등)
+      $(document).on('dragstart', function (e) {
+        e.preventDefault();
+      });
+
+      // 텍스트 선택 방지
+      $(document).on('selectstart', function (e) {
+        e.preventDefault();
+      });
+
+      // 우클릭 방지
+      $(document).on('contextmenu', function (e) {
+        e.preventDefault();
+      });
+
+      // Ctrl+C, Ctrl+X, Ctrl+V 방지
+      $(document).on('keydown', function (e) {
+        if (e.ctrlKey && (e.key === 'c' || e.key === 'x' || e.key === 'v')) {
+          e.preventDefault();
+        }
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="navi">
+      <img src="img/logo.png" alt="">
+      <div class="gnb">
+        <ul>
+          <li>이용정보</li>
+          <li>안전환경</li>
+          <li>시민참여</li>
+          <li>알림마당</li>
+          <li>정보공개</li>
+          <li>ESG경영</li>
+          <li>공사소개</li>
+        </ul>
+        <div class="icon">
+          <ul>
+            <li class="hambuger"><i class="fas fa-bars"></i></li>
+            <li><i class="fas fa-search"></i></li>
+            <li><i class="fas fa-sign-in-alt"></i></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="list">
+      <nav>
+        <div class="box">
+          <h4>공사소개</h4>
+        </div>
+        <div class="abox">
+          <article>
+            <p>서울교통공사</p>
+            <i class="fas fa-chevron-circle-right"></i>
+          </article>
+          <article>
+            <p>공사이미지</p>
+            <i class="fas fa-chevron-circle-right"></i>
+          </article>
+          <article>
+            <p>경영정보</p>
+          </article>
+          <article>
+            <p>인권경영</p>
+          </article>
+          <article>
+            <p><a href="people.html">채용정보</a></p>
+          </article>
+          <article>
+            <p>적극행정</p>
+            <i class="fas fa-chevron-circle-right"></i>
+          </article>
+          <article>
+            <p>관련법행 및 사규</p>
+            <i class="fas fa-chevron-circle-right"></i>
+          </article>
+          <article>
+            <p>산업현황</p>
+            <i class="fas fa-chevron-circle-right"></i>
+          </article>
+        </div>
+        <div class="dbox">
+          <p><a href="introduce.html">서울교통공사 소개</a></p>
+          <p><a href="history.html">사이버 역사관</a></p>
+        </div>
+      </nav>
+    </div>
+    <div class="menu">
+      <nav>
+        <article>
+          <div class="box">
+            <p>이용정보</p>
+          </div>
+          <p>사이버스테이션</p>
+          <p>실시간열차운행정보</p>
+          <p>간편지연증명서</p>
+          <p>운임제도</p>
+          <p>이용고객 편의시설</p>
+          <p>역시설물 임새폐쇄 현황</p>
+          <p>유실물센터</p>
+        </article>
+        <article>
+          <div class="box">
+            <p>안전환경</p>
+          </div>
+          <p>안전가이드</p>
+          <p>안전보건 경영방침</p>
+          <p>안전관련법령</p>
+          <p>안전보고서</p>
+          <p>안전동영상</p>
+          <p>환경경영</p>
+          <p>안전장비 취급 및 현황</p>
+          <p>지하철테러대응</p>
+          <p>지하철 위생환경</p>
+        </article>
+        <article>
+          <div class="box">
+            <p>시민참여</p>
+          </div>
+          <p>신청센터</p>
+          <p>서울교통공사 견학</p>
+          <p>시민초청 문화이벤트</p>
+          <p>문화스테이션</p>
+          <p>시민안전모니터</p>
+          <p>고객의 소리</p>
+          <p>주민참여예산</p>
+          <p>시민 아이디어</p>
+          <p>고객서비스 현장</p>
+        </article>
+        <article>
+          <div class="box">
+            <p>알림마당</p>
+          </div>
+          <p>공지사항</p>
+          <p>보도자료</p>
+          <p>입찰/계약정보</p>
+          <p>부대사업정보</p>
+          <p>오픈 이노베이션</p>
+          <p>혼잡도</p>
+          <p>이달의 역세권 행사</p>
+          <p>자료실</p>
+        </article>
+        <article>
+          <div class="box">
+            <p>정보공개</p>
+          </div>
+          <p>제도안내</p>
+          <p>사전정보공표</p>
+          <p>공공데이터개방</p>
+          <p>반부패/청렴</p>
+          <p>부조리신고센터</p>
+          <p>개인정보처리방침</p>
+          <p>정보목록</p>
+          <p>정보공개청구</p>
+          <p>결제문서/회의록</p>
+          <p>청탁금지법</p>
+        </article>
+        <article>
+          <div class="box">
+            <p>ESG경영</p>
+          </div>
+          <p>ESG경영</p>
+          <p>ESG 대표성과</p>
+          <p>ESG 경영위원회</p>
+          <p>ESG 경영보고서</p>
+          <p>이해관계자 소통</p>
+          <p>사회공험</p>
+          <p>ESG 채권 발행현황</p>
+        </article>
+        <article>
+          <div class="box">
+            <p><a href="introduce.html">공사소개</a></p>
+          </div>
+          <p>서울교통공사</p>
+          <p>공사 이미지</p>
+          <p>경영정보</p>
+          <p>인권경영</p>
+          <p>채용정보</p>
+          <p>적극행정</p>
+          <p>관련법령 및 사규</p>
+          <p>산업현황</p>
+        </article>
+      </nav>
+    </div>
+  </header>
+
+  <section class="background">
+    <div class="bicon">
+      <div class="icon">
+        <article>
+          <img src="img/subway.png" alt="">
+          <p>노선도</p>
+        </article>
+        <article>
+          <img src="img/time.png" alt="">
+          <p>열차시간표</p>
+        </article>
+        <article>
+          <img src="img/txt.png" alt="">
+          <p>지연증명서</p>
+        </article>
+        <article>
+          <img src="img/time.png" alt="">
+          <p>실시간운행</p>
+        </article>
+        <article>
+          <img src="img/shop.png" alt="">
+          <p>유실물찾기</p>
+        </article>
+        <article>
+          <img src="img/money.png" alt="">
+          <p>운임안내</p>
+        </article>
+        <article>
+          <img src="img/care.png" alt="">
+          <p>배려시설</p>
+        </article>
+        <article>
+          <img src="img/sound.png" alt="">
+          <p>고객의 소리</p>
+        </article>
+        <article>
+          <img src="img/q&a.png" alt="">
+          <p>Q&A</p>
+        </article>
+      </div>
+      <div class="search">
+        <div class="box">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="box">
+          <input type="text" placeholder="출발역">
+        </div>
+        <i class="fas fa-arrow-down"></i>
+        <div class="box">
+          <input type="text" placeholder="도착역">
+        </div>
+        <div class="box">
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+    </div>
+    <div class="backgroundimg">
+      <p><span>안전한 도시철도, 편리한 교통 서비스</span> <br> 서울교통공사가 도시교통의 미래를 만들어 갑니다.</p>
+    </div>
+  </section>
+
+  <section class="notice">
+    <h4>Media</h4>
+    <div class="area">
+      <div class="box">
+        <h3>서울교통공사는 <br>다양한 채널을 통해 시민 여러분과 소통하고 있습니다.</h3>
+        <div class="sicon">
+          <img src="img/youtube.png" alt="">
+          <img src="img/twitter.png" alt="">
+          <img src="img/facebook.png" alt="">
+          <img src="img/instagram.png" alt="">
+          <img src="img/blog.png" alt="">
+        </div>
+        <div class="banner">
+          <img src="img/banner.png" alt="">
+          <div class="dot">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="nlist">
+        <div class="nheader">
+          <p><span>공지사항 </span>| 보도자료 | 채용정보</p>
+          <p>more<i class="far fa-plus"></i></p>
+        </div>
+        <ul>
+          <li>
+            <p>서울교통공사 공공테이더 이용 활성화 설문조사</p>
+            <p>2025-09-10</p>
+          </li>
+          <li>
+            <p>'행정안전부 X 서울 Pick' 테마 행사 안내</p>
+            <p>2025-09-09</p>
+          </li>
+          <li>
+            <p>도시철도 무임수송제도 개선 정책 토론회 안내</p>
+            <p>2025-09-07</p>
+          </li>
+          <li>
+            <p>지속가능경영보고서 이해관계자 설문조사 이벤트 당첨자 안내</p>
+            <p>2025-09-06</p>
+          </li>
+          <li>
+            <p>SLW 2025 서울교통공사 전시관 개최 및 사전등록 이벤트 안내</p>
+            <p>2025-09-05</p>
+          </li>
+          <li>
+            <p>서울교통공사 신형 교통카드 발매·충전기(키오스크) 안내</p>
+            <p>2025-09-03</p>
+          </li>
+          <li>
+            <p>지하철 안전 안내 및 이용 편의 개선 안내</p>
+            <p>2025-09-02</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="warea">
+      <h3>서울교통공사의 <br>조직과 업무, 청렴 정보를 만나보세요.</h3>
+      <div class="wicon">
+        <img src="img/book.png" alt="">
+        <img src="img/eye.png" alt="">
+        <img src="img/call.png" alt="">
+        <img src="img/people.png" alt="">
+        <img src="img/monus.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="event">
+    <h4>Event</h4>
+    <h3>서울교통공사에는 시민과 함께하는 문화 행사와 이벤트가 가득합니다.</h3>
+    <p>문화 행사와 시민 참여</p>
+    <div class="img">
+    <img src="img/metro.png" alt="">
+    <img src="img/look.png" alt="">
+    <img src="img/city logo.png" alt="">
+    <img src="img/performance.png" alt="">
+    <img src="img/trip.png" alt="">
+    </div>
+  </section>
+
+  <footer>
+    <div class="personal">
+      <p><span>개인정보처리방침</span> | 여객운송약관 | 사규 제·개정 및 폐기 예고 | 관련 법령 및 사규 | 업무추진비 사용내역 | 찾아오시는 길</p>
+      <p><span>유관기간 사이트</span> <i class="fas fa-plus-circle"></i></p>
+    </div>
+    <div class="txt">
+      <p>04806 서울특별시 성동구 천호대로 346 | 대표전화 1577-1234 <br> ©Copyright 2017. 서울교통공사 All right reserved.</p>
+      <p><strong>바뀌지 않는 가치, 우리의 청렴입니다.</strong></p>
+    </div>
+    <div class="mark">
+      <img src="img/mark.png" alt="">
+    </div>
+  </footer>
+
+  <script src="js/header.js"></script>
+</body>
+</html>

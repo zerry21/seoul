@@ -1,0 +1,168 @@
+header{
+  width: 100%;
+  height: 4.17vw;
+  border-bottom: 1px solid #d7d7d7;
+  position: relative;
+  z-index: 999;
+}
+.navi{
+  display: flex;
+  justify-content: space-between;
+}
+.navi img{
+  width: 8.7vw;
+  height: 2.14vw;
+  margin-top: 0.99vw;
+  margin-left: 17.34vw;
+}
+.navi .gnb{
+  display: flex;
+  gap: 2.29vw;
+  margin-top: 1.3vw;
+  margin-right: 18.23vw;
+}
+.navi .gnb > ul{
+  display: flex;
+  gap: 2.08vw;
+  font-size: 0.93vw;
+  font-weight: 500;
+}
+.navi .gnb > ul li{cursor: pointer;}
+.navi .gnb .icon ul{
+  display: flex;
+  gap: 1vw;
+  color: #1a1a1a;
+  font-size: 0.9vw;
+}
+.navi .gnb > ul > li:hover{
+  color: #12298C;
+  font-weight: 600;}
+
+.navi .gnb .icon ul li{cursor: pointer;}
+
+
+/* 메뉴리스트 */
+.list{
+  display: none;
+  width: 100%;
+  height: 30vw;
+  background-color: #fff;
+  margin-top: 1.1vw;
+}
+.list.open{display: block;}
+nav{display: flex;}
+.list > nav > .box{
+  width: 20.31vw;
+  height: 30vw;
+  background-color: #fff;
+  border-right: 1px solid #d7d7d7;
+  margin-left: 16.55vw;
+}
+.list > nav > .box > h4{
+  font-size: 1vw;
+  padding-top: 1vw;
+  padding-left: 13.28vw;
+}
+.list > nav > .abox{
+  width: 20.31vw;
+  height: 30vw;
+  padding-top: 0.5vw;
+  background-color: #fff;
+  border-right: 1px solid #d7d7d7;
+}
+.list > nav > .abox > article p{
+  font-size: 0.9vw;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 2.08vw;
+  margin-left: 1.8vw;
+}
+.list > nav > .abox > article:hover{
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+.abox article:has(i){ /* i있는 아티클만 전체 선택 */
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1.5vw;
+}
+.abox article i{
+  font-size: 0.9vw;
+  margin-top: 0.65vw;
+  color: #444;
+}
+.list > nav > .dbox{
+  display: none;
+  width: 20.31vw;
+  height: 30vw;
+  background-color: #f1f1f1;
+  padding-top: 0.5vw;
+}
+.list > nav > .dbox p{
+  font-size: 0.85vw;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  line-height: 2.08vw;
+  margin-left: 1.8vw;
+  color: #444;
+  cursor: pointer;
+}
+.list > nav > .dbox p:hover{
+  color: #12298C;
+}
+.list > nav > .dbox.active {
+  display: block; /* 클릭 시 보임 */
+}
+
+
+/* 햄버거버튼 */
+.menu{
+  width: 100%;
+  height: 30vw;
+  display: none;
+  background-color: #fff;
+  margin-top: 1.1vw;
+}
+.menu.active{display: block;}
+.menu > nav{
+  text-align: center;
+  display: flex;
+  gap: 1.20vw;
+  justify-content: center;
+  padding-top: 0.5vw;
+}
+.menu article .box{
+  width: 7.81vw;
+  height: 1.82vw;
+  background-color: #F1F1F1;
+  text-align: center;
+  padding-top: 0.2vw;
+  transition: 0.3s ease;
+}
+.menu article .box:hover{
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.menu article .box p{
+  font-weight: 600;
+  font-size: 0.89vw;
+  padding-top: 0.22vw;
+}
+.menu article p:not(:first-child){
+  font-weight: 500;
+  font-size: 0.78vw;
+  line-height: 1.56vw;
+  letter-spacing: 3%;
+  color: #888;
+}
+.menu article p:not(:first-child):hover{
+  font-weight: 600;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.menu article .box + p{
+  margin-top: 0.78vw;
+}

@@ -1,0 +1,117 @@
+.notice{
+  width: 100%;
+}
+.notice > h4{
+  font-size: 0.78vw;
+  font-weight: 600;
+  line-height: 1.82vw;
+  letter-spacing: 3px;
+  color: #12298C;
+  padding-left: 19.06vw;
+  padding-top: 1.41vw;
+}
+.notice > .area{
+  display: flex;
+  gap: 4.5vw;
+}
+
+.notice > .area > .box > h3{
+  font-size: 1.15vw;
+  font-weight: 600;
+  line-height: 1.82vw;
+  letter-spacing: 0.03em;
+  padding-left: 19.06vw;
+}
+.sicon{
+  display: flex;
+  gap: 0.8vw;
+  padding-top: 0.5vw;
+  padding-left: 19.06vw;
+}
+.sicon img{
+  display: block;
+}
+.banner{
+  width: 26vw;
+  height: 7.5vw;
+  background-color: #f1f1f1;
+  border-radius: 1.3vw;
+  margin-left: 19.06vw;
+  margin-top: 5.5vw;
+}
+.banner img{
+  width: 25vw;
+  height: 5vw;
+  padding-top: 0.7vw;
+  padding-left: 0.7vw;
+}
+
+.dot {
+  display: flex;
+  gap: 8px;
+  padding-left: 11.93vw;
+  padding-top: 0.6vw;
+}
+.dot span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%; 
+  background-color: #DEDEDE; 
+  display: inline-block;
+}
+.dot span:first-child {
+  background-color: #666; 
+}
+
+.nlist ul li{
+  display: flex;
+  justify-content: space-between;
+  gap: 6vw;
+}
+.nlist{
+  padding-top: 1.67vw;
+}
+.nlist .nheader {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2.08vw;
+  font-size: 0.9vw;
+  font-weight: 500;
+  letter-spacing: 0.03rem;
+  color: #666;
+  border-bottom: 2px solid #F1F1F1;
+  cursor: pointer;
+}
+.nheader span, .nheader p:nth-of-type(2){
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.nlist > ul > li {
+  font-size: 0.85vw;
+  font-weight: 400;
+  color: #666;
+  line-height: 2.08vw;
+  letter-spacing: 0.03rem;
+  border-bottom: 2px solid #f1f1f1;
+}
+
+.notice > .warea > h3{
+  font-size: 1.15vw;
+  font-weight: 600;
+  line-height: 1.82vw;
+  letter-spacing: 0.03em;
+  padding-top: 2.86vw;
+  padding-left: 19.06vw;
+}
+.wicon{
+  display: flex;
+  gap: 2.34vw;
+  margin-top: 2vw;
+  margin-left: 21vw;
+}
+.wicon img{
+  width: 10vw;
+  height: 10vw;
+  cursor: pointer;
+}
