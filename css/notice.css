@@ -55,13 +55,13 @@
 
 .dot {
   display: flex;
-  gap: 8px;
+  gap: 0.5vw;
   padding-left: 11.93vw;
   padding-top: 0.6vw;
 }
 .dot span {
-  width: 10px;
-  height: 10px;
+  width: 0.52vw;
+  height: 0.52vw;
   border-radius: 50%; 
   background-color: #DEDEDE; 
   display: inline-block;

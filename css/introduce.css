@@ -231,7 +231,8 @@
   cursor: pointer;
 }
 .number ul li i {
-  font-size: 0.7vw;line-height: 1.7vw;
+  font-size: 0.7vw;
+  line-height: 1.7vw;
 }
 
 
