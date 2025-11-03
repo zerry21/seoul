@@ -28,6 +28,7 @@ header{
   gap: 2.08vw;
   font-size: 1.05vw;
   font-weight: 500;
+  letter-spacing: 0.03rem;
 }
 .navi .gnb > ul li{cursor: pointer;}
 .navi .gnb .icon ul{
