@@ -81,7 +81,7 @@
   letter-spacing: 3px;
   color: #12298C;
   padding-left: 15vw;
-  padding-top: 1.41vw;
+  padding-top: 2vw;
 }
 .event > h3{
   font-size: 1.4vw;
@@ -154,7 +154,7 @@
   letter-spacing: 3px;
   color: #12298C;
   padding-left: 12vw;
-  padding-top: 2vw;
+  padding-top: 2.5vw;
 }
 .event > h3{
   font-size: 1.4vw;
@@ -218,7 +218,7 @@
 
 @media (max-width:768px){
   .event{
-  height: 60vw;
+  height: 62vw;
 }
 .event > h4{
   font-size: 1.45vw;
@@ -226,7 +226,7 @@
   line-height: 1.82vw;
   letter-spacing: 3px;
   color: #12298C;
-  padding: 2vw 0 0.3vw 10vw;
+  padding: 2.5vw 0 0.3vw 10vw;
 }
 .event > h3{
   font-size: 1.65vw;
@@ -251,7 +251,7 @@
   width: 17.69vw;
   height: 27.27vw;
   margin-left: 13.11vw;
-  margin-top: 2.08vw;
+  margin-top: 2.5vw;
   cursor: pointer;
   transition: 0.3 ease-in-out;
 }
@@ -262,28 +262,28 @@
   position: absolute;
   width: 23.88vw;
   height: 15.4vw;
-  transform: translate(32.5vw, 2.2vw);
+  transform: translate(32.5vw, 2.5vw);
   cursor: pointer;
 }
 .event > .img img:nth-of-type(3){
   position: absolute;
   width: 23.88vw;
   height: 9.29vw;
-  transform: translate(32.5vw, 19.4vw);
+  transform: translate(32.5vw, 20vw);
   cursor: pointer;
 }
 .event > .img img:nth-of-type(4){
   position: absolute;
-  width: 42.43vw;
+  width: 43vw;
   height: 18.63vw;
-  transform: translate(13.11vw, 31vw);
+  transform: translate(13.11vw, 31.5vw);
   cursor: pointer;
 }
 .event > .img img:nth-of-type(5){
   position: absolute;
   width: 31.6vw;
   height: 47.43vw;
-  transform: translate(58vw, 2.2vw);
+  transform: translate(58.5vw, 2.5vw);
   cursor: pointer;
 }
 }

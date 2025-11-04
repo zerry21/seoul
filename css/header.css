@@ -190,7 +190,7 @@ nav {
 .menu article .box p {
   font-weight: 600;
   font-size: 1vw;
-  padding-top: 0.22vw;
+  padding-top: 0.2vw;
 }
 
 .menu article p:not(:first-child) {
@@ -217,6 +217,7 @@ nav {
     gap: 2.08vw;
     font-size: 1.2vw;
     font-weight: 500;
+    letter-spacing: 0.04rem;
   }
 
   .navi .gnb>ul li {
@@ -288,7 +289,7 @@ nav {
   .menu article p:not(:first-child) {
     font-weight: 500;
     font-size: 1.1vw;
-    line-height: 2vw;
+    line-height: 2.2vw;
     letter-spacing: 0.03rem;
     color: #888;
   }
@@ -301,6 +302,7 @@ nav {
     gap: 2.08vw;
     font-size: 1.3vw;
     font-weight: 500;
+    letter-spacing: 0.04rem;
   }
 
   .navi .gnb>ul li {
@@ -365,22 +367,24 @@ nav {
 
   .menu article .box p {
     font-weight: 600;
-    font-size: 1.2vw;
+    font-size: 1.25vw;
     letter-spacing: 0.03rem;
-    padding-top: 0.3vw;
   }
 
   .menu article p:not(:first-child) {
     font-weight: 500;
     font-size: 1.2vw;
-    line-height: 2.2vw;
+    line-height: 2.3vw;
     letter-spacing: 0.03rem;
     color: #888;
   }
 }
 
 @media (max-width: 768px) {
-  header{height: 5vw;}
+  header{
+    height: 5vw;
+    border-bottom: 0.5px solid #d7d7d7;
+  }
   .navi img {
     display: none;
   }
@@ -442,19 +446,37 @@ nav {
   }
 
   /* 햄버거버튼 */
+  .menu {
+  width: 100%;
+  height: 40vw;
+  display: none;
+  background-color: #fff;
+  margin-top: 2vw;
+}
   .menu>nav {
-    gap: 2vw;
+    gap: 3vw;
   }
 
   .menu article .box {
-    display: none;
+    width: 11vw;
+    height: 3vw;
+    background-color: #F1F1F1;
+    text-align: center;
+    padding-top: 0.3vw;
+    transition: 0.3s ease;
+  }
+  .menu article .box p {
+    font-weight: 600;
+    font-size: 1.55vw;
+    letter-spacing: 0.07rem;
+    padding-top: 0.3vw;
   }
 
   .menu article p:not(:first-child) {
     font-weight: 500;
-    font-size: 1.4vw;
-    line-height: 2.7vw;
-    letter-spacing: 0.03rem;
+    font-size: 1.5vw;
+    line-height: 3vw;
+    letter-spacing: 0.04rem;
     color: #888;
   }
 }

@@ -105,10 +105,209 @@
   justify-content: center;
   align-items: center;
   border-radius: 0.5vw;
-  font-size: 0.8vw;
+  font-size: 0.9vw;
   cursor: pointer;
 }
 .jnumber ul li i {
   font-size: 0.7vw;
   line-height: 1.7vw;
+}
+
+@media (max-width:1440px){
+/* cartoon */
+.cartoon > h3{
+  font-size: 1.5vw;
+  font-weight: 700;
+  margin: 3.13vw 0 0 20vw;
+  letter-spacing: 0.03rem;
+}
+.cartoon > h3 span{color: #12298C;}
+
+.cartoon > img{
+  width: 37.38vw;
+  height: 20.19vw;
+  margin: 2.08vw 0 0 7.5vw;
+}
+
+/* table */
+.table > .ttxt > h3{
+  font-size: 1.5vw;
+  font-weight: 700;
+  margin: 3.13vw 0 0 20vw;
+  letter-spacing: 0.04rem;
+}
+.table > .ttxt > h3 span{color: #12298C;}
+.table > .ttxt > p{
+  font-size: 1.2vw;
+  font-weight: 700;
+  letter-spacing: 0.03rem;
+  color: #666;
+  padding: 0.7vw 0 0 12.5vw;
+}
+
+.table > img{
+  width: 48.85vw;
+  height: 47.97vw;
+  margin: 2.08vw 0 0 2.8vw;
+}
+
+/* job */
+.job{
+  width: 47vw;
+  height: 43vw;
+  border-radius: 1.56vw;
+  background-color: #f1f1f1;
+  margin: 3.13vw 0 3.13vw 4vw;
+}
+.job > h3{
+  font-size: 1.5vw;
+  font-weight: 700;
+  padding: 2.5vw 0 2.5vw 16.5vw;
+  letter-spacing: 0.04rem;
+}
+.job > h3 span{color: #12298C;}
+
+.jbox > ul li{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 0.2vw;
+  
+}
+.job .jbox ul li p{
+  font-size: 1.2vw;
+  font-family: 500;
+  letter-spacing: 0.03rem;
+  line-height: 2.5vw;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  cursor: pointer;
+}
+.job .jbox ul li p:nth-of-type(1) span{
+  color: #666;
+  font-family: 700;
+}
+.job .jbox ul li p:nth-of-type(2){
+  color: #666;
+}
+
+.jnumber ul li {
+  width: 1.5vw;
+  height: 1.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2vw;
+  cursor: pointer;
+}
+.jnumber ul li i {
+  font-size: 0.9vw;
+  padding-top: 0.2vw;
+}
+}
+
+
+@media (max-width:768px){
+/* cartoon */
+.cartoon > h3{
+  font-size: 1.7vw;
+  font-weight: 700;
+  margin: 3.13vw 0 0 22vw;
+  letter-spacing: 0.04rem;
+}
+.cartoon > h3 span{color: #12298C;}
+
+.cartoon > img{
+  width: 40.38vw;
+  height: 23.19vw;
+  margin: 2.08vw 0 0 9.5vw;
+}
+.cartoon > .line{
+  width: 42.19vw;
+  height: 0.05vw;
+  background-color: #bfbfbf;
+  margin: 3vw 0 0 8.5vw;
+}
+
+/* table */
+.table > .ttxt > h3{
+  font-size: 1.7vw;
+  font-weight: 700;
+  margin: 3.13vw 0 0 22vw;
+  letter-spacing: 0.05rem;
+}
+.table > .ttxt > h3 span{color: #12298C;}
+.table > .ttxt > p{
+  font-size: 1.45vw;
+  font-weight: 700;
+  letter-spacing: 0.03rem;
+  color: #666;
+  padding: 0.7vw 0 0.5vw 12vw;
+}
+
+.table > img{
+  width: 51.85vw;
+  height: 50.97vw;
+  margin: 2.08vw 0 0 4vw;
+}
+.table > .line{
+  width: 42.19vw;
+  height: 0.05vw;
+  background-color: #bfbfbf;
+  margin: 3vw 0 0 8.5vw;
+}
+
+/* job */
+.job{
+  width: 55vw;
+  height: 49vw;
+  border-radius: 1.56vw;
+  background-color: #f1f1f1;
+  margin: 3.13vw 0 3.13vw 3vw;
+}
+.job > h3{
+  font-size: 1.7vw;
+  font-weight: 700;
+  padding: 2.5vw 0 2.5vw 18.5vw;
+  letter-spacing: 0.05rem;
+}
+.job > h3 span{color: #12298C;}
+
+.jbox > ul li{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 0.2vw;
+  
+}
+.job .jbox ul li p{
+  font-size: 1.5vw;
+  font-family: 500;
+  letter-spacing: 0.03rem;
+  line-height: 3vw;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  cursor: pointer;
+}
+.job .jbox ul li p:nth-of-type(1) span{
+  color: #666;
+  font-family: 700;
+}
+.job .jbox ul li p:nth-of-type(2){
+  color: #666;
+}
+
+.jnumber ul li {
+  width: 1.5vw;
+  height: 1.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4vw;
+  cursor: pointer;
+}
+.jnumber ul li i {
+  font-size: 1.1vw;
+  padding-top: 0.1vw;
+}
 }

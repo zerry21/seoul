@@ -114,8 +114,7 @@
 .wicon{
   display: flex;
   gap: 2.34vw;
-  margin-top: 2vw;
-  margin-left: 21vw;
+  margin: 2vw 0 2vw 21vw;
 }
 .wicon img{
   width: 10vw;
@@ -211,8 +210,7 @@
 .wicon{
   display: flex;
   gap: 4vw;
-  margin-top: 2vw;
-  margin-left: 17vw;
+  margin: 2vw 0 2vw 17vw;
 }
 .wicon img{
   width: 11.5vw;
@@ -228,8 +226,7 @@
   line-height: 1.82vw;
   letter-spacing: 3px;
   color: #12298C;
-  padding-left: 12vw;
-  padding-top: 1.41vw;
+  margin: 1.41vw 0 0 -3vw;
 }
 .notice > .area > .box > h3{
   font-size: 1.3vw;
@@ -241,7 +238,7 @@
 .sicon{
   display: flex;
   gap: 0.8vw;
-  padding-top: 0.5vw;
+  padding-top: 1vw;
   padding-left: 12vw;
 }
 
@@ -280,12 +277,12 @@
 .nlist .nheader {
   display: flex;
   justify-content: space-between;
-  line-height: 2.08vw;
+  padding-bottom: 0.7vw;
   font-size: 1.2vw;
   font-weight: 500;
   letter-spacing: 0.04rem;
   color: #666;
-  border-bottom: 2px solid #F1F1F1;
+  border-bottom: 1.9px solid #F1F1F1;
   cursor: pointer;
 }
 
@@ -293,9 +290,9 @@
   font-size: 1.1vw;
   font-weight: 400;
   color: #666;
-  line-height: 2.35vw;
+  line-height: 2.5vw;
   letter-spacing: 0.04rem;
-  border-bottom: 2px solid #f1f1f1;
+  border-bottom: 1.9px solid #f1f1f1;
 }
 
 .notice > .warea > h3{
@@ -309,8 +306,7 @@
 .wicon{
   display: flex;
   gap: 3.3vw;
-  margin-top: 2vw;
-  margin-left: 14vw;
+  margin: 2vw 0 2vw 14vw;
 }
 .wicon img{
   width: 12vw;
@@ -326,7 +322,7 @@
   line-height: 1.82vw;
   letter-spacing: 3px;
   color: #12298C;
-  padding: 1.5vw 0 0.3vw 10vw;
+  padding: 2vw 0 0.5vw 13vw;
 }
 .notice > .area{display: block;}
 .notice > .area > .box > h3{
@@ -341,19 +337,19 @@
 .sicon{
   display: flex;
   gap: 0.8vw;
-  padding-top: 0.5vw;
+  padding-top: 1vw;
   padding-left: 10vw;
 }
 
 .box{position: relative;}
 .banner{
   width: 37vw;
-  height: 10vw;
+  height: 9.5vw;
   background-color: #f1f1f1;
   border-radius: 1.3vw;
 
   position: absolute;
-  transform: translate(39.5vw,-13.5vw);
+  transform: translate(41vw,-13.5vw);
 }
 .banner img{
   width: 35.7vw;
@@ -410,8 +406,7 @@
 .wicon{
   display: flex;
   gap: 3vw;
-  margin-top: 2vw;
-  margin-left: 8vw;
+  margin: 2vw 0 2.5vw 8vw;
 }
 .wicon img{
   width: 14vw;
