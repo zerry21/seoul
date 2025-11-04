@@ -73,3 +73,217 @@
   cursor: pointer;
 }
 
+@media (max-width:1440px){
+.event > h4{
+  font-size: 1.2vw;
+  font-weight: 600;
+  line-height: 1.82vw;
+  letter-spacing: 3px;
+  color: #12298C;
+  padding-left: 15vw;
+  padding-top: 1.41vw;
+}
+.event > h3{
+  font-size: 1.4vw;
+  font-weight: 600;
+  line-height: 2.2vw;
+  letter-spacing: 0.03em;
+  padding-left: 15vw;
+}
+.event > p{
+  font-size: 1.2vw;
+  font-weight: 600;
+  color: #666;
+  padding-left: 15vw;
+  padding-top: 0.2vw;
+}
+
+.event .img img{
+  display: block;
+}
+.event > .img img:nth-of-type(1){
+  position: absolute;
+  width: 14.69vw;
+  height: 22.27vw;
+  margin-left: 16.11vw;
+  margin-top: 2.08vw;
+  cursor: pointer;
+  transition: 0.3 ease-in-out;
+}
+.event > .img img:nth-of-type(1):hover{
+  transform: scale(1.1);
+}
+.event > .img img:nth-of-type(2){
+  position: absolute;
+  width: 21.88vw;
+  height: 13.4vw;
+  transform: translate(32.5vw, 2.2vw);
+  cursor: pointer;
+}
+.event > .img img:nth-of-type(3){
+  position: absolute;
+  width: 21.88vw;
+  height: 7.29vw;
+  transform: translate(32.5vw, 17vw);
+  cursor: pointer;
+}
+.event > .img img:nth-of-type(4){
+  position: absolute;
+  width: 38.43vw;
+  height: 15.63vw;
+  transform: translate(16.11vw, 26vw);
+  cursor: pointer;
+}
+.event > .img img:nth-of-type(5){
+  position: absolute;
+  width: 27.6vw;
+  height: 39.43vw;
+  transform: translate(56.5vw, 2.2vw);
+  cursor: pointer;
+}
+}
+
+@media (max-width:1024px){
+  .event{
+  height: 55vw;
+}
+.event > h4{
+  font-size: 1.2vw;
+  font-weight: 600;
+  line-height: 1.82vw;
+  letter-spacing: 3px;
+  color: #12298C;
+  padding-left: 12vw;
+  padding-top: 2vw;
+}
+.event > h3{
+  font-size: 1.4vw;
+  font-weight: 600;
+  line-height: 2.2vw;
+  letter-spacing: 0.03em;
+  padding-left: 12vw;
+}
+.event > p{
+  font-size: 1.2vw;
+  font-weight: 600;
+  color: #666;
+  padding-left: 12vw;
+  padding-top: 0.2vw;
+}
+
+.event .img img{
+  display: block;
+}
+.event > .img img:nth-of-type(1){
+  position: absolute;
+  width: 15.69vw;
+  height: 24.27vw;
+  margin-left: 15.11vw;
+  margin-top: 2vw;
+  cursor: pointer;
+  transition: 0.3 ease-in-out;
+}
+.event > .img img:nth-of-type(1):hover{
+  transform: scale(1.1);
+}
+.event > .img img:nth-of-type(2){
+  position: absolute;
+  width: 22.88vw;
+  height: 14.4vw;
+  transform: translate(32.5vw, 2.2vw);
+  cursor: pointer;
+}
+.event > .img img:nth-of-type(3){
+  position: absolute;
+  width: 22.88vw;
+  height: 8.29vw;
+  transform: translate(32.5vw, 18vw);
+  cursor: pointer;
+}
+.event > .img img:nth-of-type(4){
+  position: absolute;
+  width: 40vw;
+  height: 16.63vw;
+  transform: translate(15vw, 28vw);
+  cursor: pointer;
+}
+.event > .img img:nth-of-type(5){
+  position: absolute;
+  width: 29.6vw;
+  height: 42.43vw;
+  transform: translate(57.5vw, 2.2vw);
+  cursor: pointer;
+}
+}
+
+@media (max-width:768px){
+  .event{
+  height: 60vw;
+}
+.event > h4{
+  font-size: 1.45vw;
+  font-weight: 600;
+  line-height: 1.82vw;
+  letter-spacing: 3px;
+  color: #12298C;
+  padding: 2vw 0 0.3vw 10vw;
+}
+.event > h3{
+  font-size: 1.65vw;
+  font-weight: 600;
+  line-height: 2.5vw;
+  letter-spacing: 0.06em;
+  padding-left: 10vw;
+}
+.event > p{
+  font-size: 1.5vw;
+  font-weight: 600;
+  color: #666;
+  padding-left: 10vw;
+  padding-top: 0.2vw;
+}
+
+.event .img img{
+  display: block;
+}
+.event > .img img:nth-of-type(1){
+  position: absolute;
+  width: 17.69vw;
+  height: 27.27vw;
+  margin-left: 13.11vw;
+  margin-top: 2.08vw;
+  cursor: pointer;
+  transition: 0.3 ease-in-out;
+}
+.event > .img img:nth-of-type(1):hover{
+  transform: scale(1.1);
+}
+.event > .img img:nth-of-type(2){
+  position: absolute;
+  width: 23.88vw;
+  height: 15.4vw;
+  transform: translate(32.5vw, 2.2vw);
+  cursor: pointer;
+}
+.event > .img img:nth-of-type(3){
+  position: absolute;
+  width: 23.88vw;
+  height: 9.29vw;
+  transform: translate(32.5vw, 19.4vw);
+  cursor: pointer;
+}
+.event > .img img:nth-of-type(4){
+  position: absolute;
+  width: 42.43vw;
+  height: 18.63vw;
+  transform: translate(13.11vw, 31vw);
+  cursor: pointer;
+}
+.event > .img img:nth-of-type(5){
+  position: absolute;
+  width: 31.6vw;
+  height: 47.43vw;
+  transform: translate(58vw, 2.2vw);
+  cursor: pointer;
+}
+}

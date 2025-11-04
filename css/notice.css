@@ -124,83 +124,58 @@
 }
 
 @media(max-width:1440px){
-  .notice{
-  width: 100%;
-}
 .notice > h4{
-  font-size: 0.78vw;
+  font-size: 1.2vw;
   font-weight: 600;
   line-height: 1.82vw;
   letter-spacing: 3px;
   color: #12298C;
-  padding-left: 19.06vw;
+  padding-left: 15vw;
   padding-top: 1.41vw;
 }
-.notice > .area{
-  display: flex;
-  gap: 4.5vw;
+.notice > .area > .box > h3{
+  font-size: 1.4vw;
+  font-weight: 600;
+  line-height: 2.2vw;
+  letter-spacing: 0.04em;
+  padding-left: 15vw;
 }
 
-.notice > .area > .box > h3{
-  font-size: 1.15vw;
-  font-weight: 600;
-  line-height: 1.82vw;
-  letter-spacing: 0.03em;
-  padding-left: 19.06vw;
+.banner{
+  width: 30vw;
+  height: 8.5vw;
+  background-color: #f1f1f1;
+  border-radius: 1.3vw;
+  margin-left: 15vw;
+  margin-top: 6vw;
 }
+.banner img{
+  width: 29vw;
+  height: 6vw;
+  padding-top: 0.7vw;
+  padding-left: 0.8vw;
+}
+
 .sicon{
   display: flex;
   gap: 0.8vw;
   padding-top: 0.5vw;
-  padding-left: 19.06vw;
+  padding-left: 15vw;
 }
-.sicon img{
-  display: block;
-  width: 1.56vw;
-  height: 1.56vw;
-}
-.sicon img:nth-of-type(1){
-  width: 2.24vw;
-  height: 1.56vw;
-}
-
-.banner{
-  width: 26vw;
-  height: 7.5vw;
-  background-color: #f1f1f1;
-  border-radius: 1.3vw;
-  margin-left: 19.06vw;
-  margin-top: 5.5vw;
-}
-.banner img{
-  width: 25vw;
-  height: 5vw;
-  padding-top: 0.7vw;
-  padding-left: 0.7vw;
-}
-
 .dot {
   display: flex;
-  gap: 0.5vw;
-  padding-left: 11.93vw;
+  gap: 0.8vw;
+  padding-left: 13.5vw;
   padding-top: 0.6vw;
 }
 .dot span {
-  width: 0.52vw;
-  height: 0.52vw;
+  width: 0.8vw;
+  height: 0.8vw;
   border-radius: 50%; 
   background-color: #DEDEDE; 
   display: inline-block;
 }
-.dot span:first-child {
-  background-color: #666; 
-}
 
-.nlist ul li{
-  display: flex;
-  justify-content: space-between;
-  gap: 6vw;
-}
 .nlist{
   padding-top: 1.67vw;
 }
@@ -208,44 +183,240 @@
   display: flex;
   justify-content: space-between;
   line-height: 2.08vw;
-  font-size: 0.9vw;
+  font-size: 1.2vw;
   font-weight: 500;
-  letter-spacing: 0.03rem;
+  letter-spacing: 0.05rem;
   color: #666;
   border-bottom: 2px solid #F1F1F1;
   cursor: pointer;
 }
-.nheader span, .nheader p:nth-of-type(2){
-  color: #1a1a1a;
-  cursor: pointer;
-}
 
 .nlist > ul > li {
-  font-size: 0.85vw;
+  font-size: 1.1vw;
   font-weight: 400;
   color: #666;
-  line-height: 2.08vw;
-  letter-spacing: 0.03rem;
+  line-height: 2.3vw;
+  letter-spacing: 0.04rem;
   border-bottom: 2px solid #f1f1f1;
 }
 
 .notice > .warea > h3{
-  font-size: 1.15vw;
+  font-size: 1.4vw;
   font-weight: 600;
-  line-height: 1.82vw;
-  letter-spacing: 0.03em;
+  line-height: 2.2vw;
+  letter-spacing: 0.04em;
   padding-top: 2.86vw;
-  padding-left: 19.06vw;
+  padding-left: 15vw;
 }
 .wicon{
   display: flex;
-  gap: 2.34vw;
+  gap: 4vw;
   margin-top: 2vw;
-  margin-left: 21vw;
+  margin-left: 17vw;
 }
 .wicon img{
-  width: 10vw;
-  height: 10vw;
+  width: 11.5vw;
+  height: 11.5vw;
   cursor: pointer;
 }
 }
+
+@media(max-width:1024px){
+.notice > h4{
+  font-size: 1.2vw;
+  font-weight: 600;
+  line-height: 1.82vw;
+  letter-spacing: 3px;
+  color: #12298C;
+  padding-left: 12vw;
+  padding-top: 1.41vw;
+}
+.notice > .area > .box > h3{
+  font-size: 1.3vw;
+  font-weight: 600;
+  line-height: 2vw;
+  letter-spacing: 0.06em;
+  padding-left: 12vw;
+}
+.sicon{
+  display: flex;
+  gap: 0.8vw;
+  padding-top: 0.5vw;
+  padding-left: 12vw;
+}
+
+.banner{
+  width: 30vw;
+  height: 8.5vw;
+  background-color: #f1f1f1;
+  border-radius: 1.3vw;
+  margin-left: 12vw;
+  margin-top: 5.5vw;
+}
+.banner img{
+  width: 29vw;
+  height: 6vw;
+  padding-top: 0.7vw;
+  padding-left: 0.7vw;
+}
+
+.dot {
+  display: flex;
+  gap: 0.65vw;
+  padding-left: 14vw;
+  padding-top: 0.4vw;
+}
+.dot span {
+  width: 0.65vw;
+  height: 0.65vw;
+  border-radius: 50%; 
+  background-color: #DEDEDE; 
+  display: inline-block;
+}
+
+.nlist{
+  padding-top: 1.67vw;
+}
+.nlist .nheader {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2.08vw;
+  font-size: 1.2vw;
+  font-weight: 500;
+  letter-spacing: 0.04rem;
+  color: #666;
+  border-bottom: 2px solid #F1F1F1;
+  cursor: pointer;
+}
+
+.nlist > ul > li {
+  font-size: 1.1vw;
+  font-weight: 400;
+  color: #666;
+  line-height: 2.35vw;
+  letter-spacing: 0.04rem;
+  border-bottom: 2px solid #f1f1f1;
+}
+
+.notice > .warea > h3{
+  font-size: 1.3vw;
+  font-weight: 600;
+  line-height: 2vw;
+  letter-spacing: 0.06em;
+  padding-top: 2.86vw;
+  padding-left: 12vw;
+}
+.wicon{
+  display: flex;
+  gap: 3.3vw;
+  margin-top: 2vw;
+  margin-left: 14vw;
+}
+.wicon img{
+  width: 12vw;
+  height: 12vw;
+  cursor: pointer;
+}
+}
+
+@media(max-width:768px){
+.notice > h4{
+  font-size: 1.45vw;
+  font-weight: 600;
+  line-height: 1.82vw;
+  letter-spacing: 3px;
+  color: #12298C;
+  padding: 1.5vw 0 0.3vw 10vw;
+}
+.notice > .area{display: block;}
+.notice > .area > .box > h3{
+  font-size: 1.65vw;
+  font-weight: 600;
+  line-height: 2.5vw;
+  letter-spacing: 0.06em;
+  padding-left: 4vw;
+  margin-left: 6vw;
+}
+
+.sicon{
+  display: flex;
+  gap: 0.8vw;
+  padding-top: 0.5vw;
+  padding-left: 10vw;
+}
+
+.box{position: relative;}
+.banner{
+  width: 37vw;
+  height: 10vw;
+  background-color: #f1f1f1;
+  border-radius: 1.3vw;
+
+  position: absolute;
+  transform: translate(39.5vw,-13.5vw);
+}
+.banner img{
+  width: 35.7vw;
+  height: 7vw;
+  padding-top: 0.7vw;
+  padding-left: 1vw;
+}
+
+.dot {
+  display: flex;
+  gap: 0.85vw;
+  padding-left: 16.5vw;
+  padding-top: 0.5vw;
+}
+.dot span {
+  width: 0.9vw;
+  height: 0.9vw;
+  border-radius: 50%; 
+  background-color: #DEDEDE; 
+  display: inline-block;
+}
+
+.nlist{
+  margin: 3vw 10vw 1vw 10vw;
+}
+.nlist .nheader {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2.08vw;
+  font-size: 1.6vw;
+  font-weight: 500;
+  letter-spacing: 0.06rem;
+  color: #666;
+  border-bottom: 1.8px solid #F1F1F1;
+  cursor: pointer;
+}
+
+.nlist > ul > li {
+  font-size: 1.5vw;
+  font-weight: 400;
+  color: #666;
+  line-height: 3vw;
+  letter-spacing: 0.04rem;
+}
+
+.notice > .warea > h3{
+  font-size: 1.65vw;
+  font-weight: 600;
+  line-height: 2.5vw;
+  letter-spacing: 0.06em;
+  padding-top: 2.86vw;
+  padding-left: 10vw;
+}
+.wicon{
+  display: flex;
+  gap: 3vw;
+  margin-top: 2vw;
+  margin-left: 8vw;
+}
+.wicon img{
+  width: 14vw;
+  height: 14vw;
+  cursor: pointer;
+}
+}
+

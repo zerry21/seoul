@@ -37,3 +37,116 @@ footer{
   margin-left: 1.5vw;
   margin-bottom: 0.2vw;
 }
+
+@media (max-width:1440px){
+.personal{
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5vw 2.6vw 0 2.6vw;
+  color: #4D4D4D;
+}
+.personal p{
+  font-weight: 500;
+  font-size: 1.2vw;
+  letter-spacing: 0.04rem;
+}
+.personal p span{
+  color: #1a1a1a;
+}
+
+.txt{
+  font-size: 1vw;
+  line-height: 1.3vw;
+  margin: 2vw 0 0 2.6vw;
+}
+.txt p:nth-of-type(2){
+  font-size: 1vw;
+  padding-top: 0.4vw;
+}
+
+.mark{
+  position: absolute;
+  transform: translate(90vw, -4.5vw);
+}
+.mark > img{
+  width: 6.2vw;
+  height: 5vw;
+  margin-left: 1.5vw;
+  margin-bottom: 0.2vw;
+}
+}
+
+@media (max-width:1024px){
+.personal{
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5vw 2.6vw 0 2.6vw;
+  color: #4D4D4D;
+}
+.personal p{
+  font-weight: 500;
+  font-size: 1.2vw;
+  letter-spacing: 0.04rem;
+}
+.personal p span{
+  color: #1a1a1a;
+}
+
+.txt{
+  font-size: 1.1vw;
+  line-height: 1.7vw;
+  margin: 2vw 0 0 2.6vw;
+}
+.txt p:nth-of-type(2){
+  font-size: 1.1vw;
+  padding-top: 0.4vw;
+}
+
+.mark{
+  position: absolute;
+  transform: translate(90vw, -4.5vw);
+}
+.mark > img{
+  width: 6.7vw;
+  height: 5.5vw;
+  margin: -1.5vw 0 0.2vw -0.2vw;
+}
+}
+
+@media (max-width:768px){
+.personal{
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5vw 2.6vw 0 2.6vw;
+  color: #4D4D4D;
+}
+.personal p{
+  font-weight: 500;
+  font-size: 1.4vw;
+  letter-spacing: 0.04rem;
+}
+.personal p span{
+  color: #1a1a1a;
+}
+
+.txt{
+  font-size: 1.35vw;
+  line-height: 1.7vw;
+  margin: 2vw 0 0 2.6vw;
+}
+.txt p:nth-of-type(2){
+  font-size: 1.35vw;
+  padding-top: 0.4vw;
+}
+
+.mark{
+  position: absolute;
+  transform: translate(90vw, -4.5vw);
+}
+.mark > img{
+  width: 7.2vw;
+  height: 5.8vw;
+  margin: -1vw 0 0.2vw -1.5vw;
+}
+}
+

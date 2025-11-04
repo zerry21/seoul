@@ -1,107 +1,137 @@
-header{
+header {
   width: 100%;
   height: 4.17vw;
   border-bottom: 1px solid #d7d7d7;
   position: relative;
   z-index: 999;
 }
-.navi{
+
+.navi {
   display: flex;
   justify-content: space-between;
 }
-.navi img{
+
+.navi img {
   width: 8.7vw;
   height: 2.14vw;
   margin-top: 0.99vw;
   margin-left: 17.34vw;
 }
 
-.navi .slogo{display: none;}
-.navi .gnb{
+.navi .slogo {
+  display: none;
+}
+
+.navi .gnb {
   display: flex;
   gap: 2.29vw;
   margin-top: 1.3vw;
   margin-right: 16.34vw;
 }
-.navi .gnb > ul{
+
+.navi .gnb>ul {
   display: flex;
   gap: 2.08vw;
   font-size: 1.05vw;
   font-weight: 500;
   letter-spacing: 0.03rem;
 }
-.navi .gnb > ul li{cursor: pointer;}
-.navi .gnb .icon ul{
+
+.navi .gnb>ul li {
+  cursor: pointer;
+}
+
+.navi .gnb .icon ul {
   display: flex;
   gap: 1vw;
   color: #1a1a1a;
   font-size: 0.9vw;
 }
-.navi .gnb > ul > li:hover{
-  color: #12298C;
-  font-weight: 600;}
 
-.navi .gnb .icon ul li{cursor: pointer;}
+.navi .gnb>ul>li:hover {
+  color: #12298C;
+  font-weight: 600;
+}
+
+.navi .gnb .icon ul li {
+  cursor: pointer;
+}
 
 
 /* 메뉴리스트 */
-.list{
+.list {
   display: none;
   width: 100%;
   height: 30vw;
   background-color: #fff;
   margin-top: 1.1vw;
 }
-.list.open{display: block;}
-nav{display: flex;}
-.list > nav > .box{
+
+.list.open {
+  display: block;
+}
+
+nav {
+  display: flex;
+}
+
+.list>nav>.box {
   width: 20.31vw;
   height: 30vw;
   background-color: #fff;
   border-right: 1px solid #d7d7d7;
   margin-left: 16.55vw;
 }
-.list > nav > .box > h4{
+
+.list>nav>.box>h4 {
   font-size: 1.1vw;
   padding-top: 1vw;
   padding-left: 13.28vw;
 }
-.list > nav > .abox{
+
+.list>nav>.abox {
   width: 20.31vw;
   height: 30vw;
   padding-top: 0.5vw;
   background-color: #fff;
   border-right: 1px solid #d7d7d7;
 }
-.list > nav > .abox > article p{
+
+.list>nav>.abox>article p {
   font-size: 1vw;
   font-weight: 500;
   letter-spacing: 0.03em;
   line-height: 2.08vw;
   margin-left: 1.8vw;
 }
-.list > nav > .abox > article:hover{
+
+.list>nav>.abox>article:hover {
   background-color: #f1f1f1;
   cursor: pointer;
 }
-.abox article:has(i){ /* i있는 아티클만 전체 선택 */
+
+.abox article:has(i) {
+  /* i있는 아티클만 전체 선택 */
   display: flex;
   justify-content: space-between;
   padding-right: 1.5vw;
 }
-.abox article i{
+
+.abox article i {
   font-size: 0.9vw;
   margin-top: 0.55vw;
   color: #444;
 }
-.list > nav > .dbox{
+
+.list>nav>.dbox {
   display: none;
   width: 20.31vw;
   height: 30vw;
   background-color: #f1f1f1;
   padding-top: 0.5vw;
 }
-.list > nav > .dbox p{
+
+.list>nav>.dbox p {
   font-size: 0.9vw;
   font-weight: 500;
   letter-spacing: 0.03em;
@@ -110,31 +140,39 @@ nav{display: flex;}
   color: #444;
   cursor: pointer;
 }
-.list > nav > .dbox p:hover{
+
+.list>nav>.dbox p:hover {
   color: #12298C;
 }
-.list > nav > .dbox.active {
-  display: block; /* 클릭 시 보임 */
+
+.list>nav>.dbox.active {
+  display: block;
+  /* 클릭 시 보임 */
 }
 
 
 /* 햄버거버튼 */
-.menu{
+.menu {
   width: 100%;
   height: 30vw;
   display: none;
   background-color: #fff;
   margin-top: 1.1vw;
 }
-.menu.active{display: block;}
-.menu > nav{
+
+.menu.active {
+  display: block;
+}
+
+.menu>nav {
   text-align: center;
   display: flex;
   gap: 1.20vw;
   justify-content: center;
   padding-top: 0.5vw;
 }
-.menu article .box{
+
+.menu article .box {
   width: 7.81vw;
   height: 1.82vw;
   background-color: #F1F1F1;
@@ -142,246 +180,281 @@ nav{display: flex;}
   padding-top: 0.2vw;
   transition: 0.3s ease;
 }
-.menu article .box:hover{
+
+.menu article .box:hover {
   background-color: #1a1a1a;
   color: #f1f1f1;
   cursor: pointer;
 }
 
-.menu article .box p{
+.menu article .box p {
   font-weight: 600;
   font-size: 1vw;
   padding-top: 0.22vw;
 }
-.menu article p:not(:first-child){
+
+.menu article p:not(:first-child) {
   font-weight: 500;
   font-size: 1vw;
   line-height: 2vw;
   letter-spacing: 0.03rem;
   color: #888;
 }
-.menu article p:not(:first-child):hover{
+
+.menu article p:not(:first-child):hover {
   font-weight: 600;
   color: #1a1a1a;
   cursor: pointer;
 }
 
-.menu article .box + p{
+.menu article .box+p {
   margin-top: 0.78vw;
 }
 
-@media (max-width: 1440px){
-  .navi .gnb > ul{
-  display: flex;
-  gap: 2.08vw;
-  font-size: 1.2vw;
-  font-weight: 500;
-}
-.navi .gnb > ul li{cursor: pointer;}
-.navi .gnb .icon ul{
-  color: #1a1a1a;
-  font-size: 1.2vw;
-}
-.navi .gnb .icon ul li:not(.hambuger) {
+@media (max-width: 1440px) {
+  .navi .gnb>ul {
+    display: flex;
+    gap: 2.08vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+  }
+
+  .navi .gnb>ul li {
+    cursor: pointer;
+  }
+
+  .navi .gnb .icon ul {
+    color: #1a1a1a;
+    font-size: 1.2vw;
+  }
+
+  .navi .gnb .icon ul li:not(.hambuger) {
     display: none;
+  }
+
+  /* list */
+  .list>nav>.box>h4 {
+    font-size: 1.2vw;
+    letter-spacing: 0.05rem;
+    padding-top: 1vw;
+    padding-left: 13.28vw;
+  }
+
+  .list>nav>.abox>article p {
+    font-size: 1vw;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 2.5vw;
+    margin-left: 1.8vw;
+  }
+
+  .abox article i {
+    font-size: 1vw;
+    margin-top: 0.75vw;
+    color: #444;
+  }
+
+  .list>nav>.dbox p {
+    font-size: 0.95vw;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 2.08vw;
+    margin-left: 1.8vw;
+    color: #444;
+    cursor: pointer;
+  }
+
+  /* 햄버거버튼 */
+  .menu>nav {
+    gap: 2vw;
+  }
+
+  .menu article .box {
+    width: 8.2vw;
+    height: 2.2vw;
+    background-color: #F1F1F1;
+    text-align: center;
+    padding-top: 0.3vw;
+    transition: 0.3s ease;
+  }
+
+  .menu article .box p {
+    font-weight: 600;
+    font-size: 1.1vw;
+    letter-spacing: 0.03rem;
+    padding-top: 0.12vw;
+  }
+
+  .menu article p:not(:first-child) {
+    font-weight: 500;
+    font-size: 1.1vw;
+    line-height: 2vw;
+    letter-spacing: 0.03rem;
+    color: #888;
+  }
 }
 
-/* list */
-.list > nav > .box > h4{
-  font-size: 1.2vw;
-  letter-spacing: 0.05rem;
-  padding-top: 1vw;
-  padding-left: 13.28vw;
-}
-.list > nav > .abox > article p{
-  font-size: 1vw;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-  line-height: 2.5vw;
-  margin-left: 1.8vw;
-}
-.abox article i{
-  font-size: 1vw;
-  margin-top: 0.75vw;
-  color: #444;
-}
-.list > nav > .dbox p{
-  font-size: 0.95vw;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-  line-height: 2.08vw;
-  margin-left: 1.8vw;
-  color: #444;
-  cursor: pointer;
-}
 
-/* 햄버거버튼 */
-.menu > nav{gap: 2vw;}
-.menu article .box{
-  width: 8.2vw;
-  height: 2.2vw;
-  background-color: #F1F1F1;
-  text-align: center;
-  padding-top: 0.3vw;
-  transition: 0.3s ease;
-}
-.menu article .box p{
-  font-weight: 600;
-  font-size: 1.1vw;
-  letter-spacing: 0.03rem;
-  padding-top: 0.12vw;
-}
-.menu article p:not(:first-child){
-  font-weight: 500;
-  font-size: 1.1vw;
-  line-height: 2vw;
-  letter-spacing: 0.03rem;
-  color: #888;
-}
-}
+@media (max-width: 1024px) {
+  .navi .gnb>ul {
+    display: flex;
+    gap: 2.08vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+  }
 
+  .navi .gnb>ul li {
+    cursor: pointer;
+  }
 
-@media (max-width: 1024px){
-.navi .gnb > ul{
-  display: flex;
-  gap: 2.08vw;
-  font-size: 1.3vw;
-  font-weight: 500;
-}
-.navi .gnb > ul li{cursor: pointer;}
-.navi .gnb .icon ul{
-  color: #1a1a1a;
-  font-size: 1.5vw;
-  margin-top: -0.15vw;
-}
-.navi .gnb .icon ul li:not(.hambuger) {
+  .navi .gnb .icon ul {
+    color: #1a1a1a;
+    font-size: 1.5vw;
+    margin-top: -0.15vw;
+  }
+
+  .navi .gnb .icon ul li:not(.hambuger) {
     display: none;
+  }
+
+  /* list */
+  .list>nav>.box>h4 {
+    font-size: 1.4vw;
+    letter-spacing: 0.05rem;
+    padding-top: 1vw;
+    padding-left: 12.28vw;
+  }
+
+  .list>nav>.abox>article p {
+    font-size: 1.3vw;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 3vw;
+    margin-left: 1.8vw;
+  }
+
+  .abox article i {
+    font-size: 1.1vw;
+    margin-top: 0.9vw;
+    color: #444;
+  }
+
+  .list>nav>.dbox p {
+    font-size: 1.1vw;
+    font-weight: 500;
+    letter-spacing: 0.07em;
+    line-height: 2.5vw;
+    margin-left: 1.8vw;
+    color: #444;
+    cursor: pointer;
+  }
+
+  /* 햄버거버튼 */
+  .menu>nav {
+    gap: 2vw;
+  }
+
+  .menu article .box {
+    width: 8.6vw;
+    height: 2.6vw;
+    background-color: #F1F1F1;
+    text-align: center;
+    padding-top: 0.4vw;
+    transition: 0.3s ease;
+  }
+
+  .menu article .box p {
+    font-weight: 600;
+    font-size: 1.2vw;
+    letter-spacing: 0.03rem;
+    padding-top: 0.3vw;
+  }
+
+  .menu article p:not(:first-child) {
+    font-weight: 500;
+    font-size: 1.2vw;
+    line-height: 2.2vw;
+    letter-spacing: 0.03rem;
+    color: #888;
+  }
 }
 
-/* list */
-.list > nav > .box > h4{
-  font-size: 1.4vw;
-  letter-spacing: 0.05rem;
-  padding-top: 1vw;
-  padding-left: 12.28vw;
-}
-.list > nav > .abox > article p{
-  font-size: 1.3vw;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-  line-height: 3vw;
-  margin-left: 1.8vw;
-}
-.abox article i{
-  font-size: 1.1vw;
-  margin-top: 0.9vw;
-  color: #444;
-}
-.list > nav > .dbox p{
-  font-size: 1.1vw;
-  font-weight: 500;
-  letter-spacing: 0.07em;
-  line-height: 2.5vw;
-  margin-left: 1.8vw;
-  color: #444;
-  cursor: pointer;
-}
-
-/* 햄버거버튼 */
-.menu > nav{gap: 2vw;}
-.menu article .box{
-  width: 8.6vw;
-  height: 2.6vw;
-  background-color: #F1F1F1;
-  text-align: center;
-  padding-top: 0.4vw;
-  transition: 0.3s ease;
-}
-.menu article .box p{
-  font-weight: 600;
-  font-size: 1.2vw;
-  letter-spacing: 0.03rem;
-  padding-top: 0.3vw;
-}
-.menu article p:not(:first-child){
-  font-weight: 500;
-  font-size: 1.2vw;
-  line-height: 2.2vw;
-  letter-spacing: 0.03rem;
-  color: #888;
-}
-}
-
-@media (max-width: 768px){
-.navi img{display: none;}
-.navi .slogo{
-  display: block;
-  width: 2.5vw;
-  height: 2.2vw;
-}
-.navi .gnb > ul{
-  display: flex;
-  gap: 1.7vw;
-  font-size: 1.5vw;
-  font-weight: 500;
-  letter-spacing: 0.05rem;
-}
-.navi .gnb > ul li{cursor: pointer;}
-.navi .gnb .icon ul{
-  color: #1a1a1a;
-  font-size: 1.8vw;
-  margin-top: -0.15vw;
-}
-.navi .gnb .icon ul li:not(.hambuger) {
+@media (max-width: 768px) {
+  header{height: 5vw;}
+  .navi img {
     display: none;
-}
+  }
 
-/* list */
-.list > nav > .box > h4{
-  font-size: 1.5vw;
-  letter-spacing: 0.05rem;
-  padding-top: 1vw;
-  padding-left: 11.28vw;
-}
-.list > nav > .abox > article p{
-  font-size: 1.4vw;
-  font-weight: 500;
-  letter-spacing: 0.05em;
-  line-height: 3.5vw;
-  margin-left: 1.8vw;
-}
-.abox article i{
-  font-size: 1.2vw;
-  margin-top: 1.2vw;
-  color: #444;
-}
-.list > nav > .dbox p{
-  font-size: 1.25vw;
-  font-weight: 500;
-  letter-spacing: 0.07em;
-  line-height: 3vw;
-  margin-left: 1.8vw;
-  color: #444;
-  cursor: pointer;
-}
+  .navi .slogo {
+    display: block;
+    width: 2.5vw;
+    height: 2.2vw;
+  }
 
-/* 햄버거버튼 */
-.menu > nav{gap: 2vw;}
-.menu article .box{display: none;}
-.menu article p:not(:first-child){
-  font-weight: 500;
-  font-size: 1.4vw;
-  line-height: 2.7vw;
-  letter-spacing: 0.03rem;
-  color: #888;
-}
-}
+  .navi .gnb>ul {
+    display: flex;
+    gap: 1.7vw;
+    font-size: 1.6vw;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+  }
 
-@media (max-width:375px){
-  header{height: 4.5vw;}
-  .navi .gnb .icon ul{
-  color: #1a1a1a;
-  font-size: 1.8vw;
-  margin-top: -0.34vw;
-}
+  .navi .gnb .icon ul {
+    color: #1a1a1a;
+    font-size: 1.8vw;
+    margin-top: -0.1vw;
+  }
+
+  .navi .gnb .icon ul li:not(.hambuger) {
+    display: none;
+  }
+
+  /* list */
+  .list>nav>.box>h4 {
+    font-size: 1.5vw;
+    letter-spacing: 0.05rem;
+    padding-top: 1vw;
+    padding-left: 11.28vw;
+  }
+
+  .list>nav>.abox>article p {
+    font-size: 1.4vw;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    line-height: 3.5vw;
+    margin-left: 1.8vw;
+  }
+
+  .abox article i {
+    font-size: 1.2vw;
+    margin-top: 1.2vw;
+    color: #444;
+  }
+
+  .list>nav>.dbox p {
+    font-size: 1.25vw;
+    font-weight: 500;
+    letter-spacing: 0.07em;
+    line-height: 3vw;
+    margin-left: 1.8vw;
+    color: #444;
+    cursor: pointer;
+  }
+
+  /* 햄버거버튼 */
+  .menu>nav {
+    gap: 2vw;
+  }
+
+  .menu article .box {
+    display: none;
+  }
+
+  .menu article p:not(:first-child) {
+    font-weight: 500;
+    font-size: 1.4vw;
+    line-height: 2.7vw;
+    letter-spacing: 0.03rem;
+    color: #888;
+  }
 }
