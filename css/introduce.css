@@ -165,24 +165,29 @@
   height: 10.83vw;
   cursor: pointer;
 }
+
+.otxt > p:nth-of-type(1){
+  width: 26vw;
+  height: 6vw;
+  text-align: justify;
+}
 .content > article:nth-of-type(1) h3{
   font-size: 0.9vw;
   font-weight: 700;
   letter-spacing: 0.03rem;
-  margin-bottom: 1.5vw;
 }
 .content > article:nth-of-type(1) p:nth-of-type(1){
   font-size: 0.8vw;
   font-weight: 500;
-  line-height: 1.20vw;
-  margin-bottom: 0.4vw;
+  line-height: 1.3vw;
+  margin-top: 1vw;
 }
 .content > article:nth-of-type(1) p:nth-of-type(2){
   font-size: 0.75vw;
   font-weight: 500;
-  line-height: 1.20vw;
   color: #888;
   letter-spacing: 0.02rem;
+  line-height: 1.1vw;
 }
 
 .nalist {
@@ -460,5 +465,229 @@
 .number ul li i {
   font-size: 0.8vw;
 }
+}
 
+@media (max-width:1024px){
+  /* 인사말 */
+.hitxt>h3 {
+  font-size: 1.6vw;
+  font-weight: 700;
+  margin: 3.13vw 0 0 27vw;
+  letter-spacing: 0.04rem;
+}
+
+.hitxt>.hi {
+  display: flex;
+  margin: 2.08vw 0 0 5.21vw;
+  padding-bottom: 3.13vw;
+}
+.hitxt>.hi>.himg>img {
+  width: 13vw;
+  height: 18vw;
+  border-radius: 6.77vw;
+}
+
+.hitxt .htxt {
+  margin: 0 0 0 3.39vw;
+  line-height: 1.3vw;
+  letter-spacing: 0.03rem;
+}
+.hitxt .htxt span {
+  font-size: 1.4vw;
+  font-weight: 700;
+  padding-right: 0.5vw;
+}
+.hitxt .htxt p:nth-of-type(1) {
+  font-size: 1.15vw;
+  font-weight: 500;
+  letter-spacing: 0.04rem;
+}
+.hitxt .htxt p:nth-of-type(2) {
+  font-size: 1.2vw;
+  font-weight: 500;
+  line-height: 1.7vw;
+  letter-spacing: 0.04rem;
+  padding-top: 1.5vw;
+}
+
+.intro .line{
+  width: 42.19vw;
+  height: 0.05vw;
+  background-color: #bfbfbf;
+  margin: 0 0 0 10vw;
+}
+
+/* 지도 */
+.map {position: relative;}
+
+.mtxt>h3 {
+  font-size: 1.6vw;
+  font-weight: 700;
+  margin: 3.13vw 0 0 12vw;
+  letter-spacing: 0.04rem;
+}
+
+.mtxt>p {
+  font-size: 1.2vw;
+  font-weight: 500;
+  letter-spacing: 0.03rem;
+  line-height: 1.5vw;
+  margin: 2.5vw 0 0 6vw;
+}
+
+.map>.mimg img {
+  width: 34vw;
+  height: 18vw;
+  border-radius: 1.56vw;
+  margin: 1.12vw 0 0 5.5vw;
+}
+
+.map>.mbox {
+  position: absolute;
+  transform: translate(31vw, -25vw);
+  width: 30vw;
+  height: 18vw;
+  border-radius: 1.2vw;
+  background-color: #fff;
+  box-shadow: 0 0 1.04vw rgba(0, 0, 0, 0.25);
+}
+.map .mbox > .bus{margin-top: 1.1vw;}
+.map .mbox>.bus,
+.map .mbox>.taxi,
+.map .mbox>.sub {
+  display: flex;
+  font-size: 1.2vw;
+  font-weight: 500;
+  line-height: 1.5vw;
+  letter-spacing: 0.03rem;
+}
+
+.map .line {
+  width: 42.19vw;
+  height: 0.05vw;
+  background-color: #bfbfbf;
+  margin: 3.13vw 0 0 10vw;
+}
+
+.mbox > .bus{margin: 1.67vw 0 0 1.5vw;}
+.mbox > .taxi{margin: 1vw 0 0 1.5vw;}
+.mbox > .sub{margin: 1vw 0 0 1.7vw;}
+.mbox > .bus i{
+  font-size: 1.15vw;
+  padding: 0.5vw 2.3vw 0 0;
+  cursor: pointer;
+}
+.mbox > .taxi i{
+  font-size: 1.15vw;
+  padding: 0.6vw 2.3vw 0 0;
+  cursor: pointer;
+}
+.mbox > .sub i{
+  font-size: 1.25vw;
+  padding: 0.6vw 2.1vw 0 0;
+  cursor: pointer;
+}
+
+
+/* NOW */
+.now > h3{
+  font-size: 1.6vw;
+  font-weight: 700;
+  margin: 3.13vw 0 1.5vw 24.5vw;
+  letter-spacing: 0.04rem;
+}
+.now > h3 span{color: #12298C;}
+
+.nlist{
+  display: flex;
+  gap: 1.5vw;  
+  margin: 1.4vw 0 0 8.5vw;
+}
+.nlist > .circle{
+  width: 6.2vw;
+  height: 2.2vw;
+  border-radius: 5.21vw;
+  border: 1px solid #1a1a1a;
+}
+.nlist > .circle p{
+  font-size: 1.2vw;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.8vw;
+  padding-top: 0.1vw;
+}
+
+.now > .content > article:nth-of-type(1){
+  display: flex;
+  gap: 1.56vw;
+  margin: 3vw 0 0 5.5vw;
+}
+.content article img{
+  width: 22vw;
+  height: 14vw;
+}
+.otxt{margin-top: 0.5vw;}
+.content > article:nth-of-type(1) h3{
+  font-size: 1.35vw;
+  font-weight: 700;
+  letter-spacing: 0.03rem;
+  margin-bottom: 0.5vw;
+}
+.otxt > p:nth-of-type(1){
+  width: 32vw;
+  height: 6vw;
+  text-align: justify;
+}
+.content > article:nth-of-type(1) p:nth-of-type(1){
+  font-size: 1.2vw;
+  font-weight: 500;
+  line-height: 1.6vw;
+}
+.content > article:nth-of-type(1) p:nth-of-type(2){
+  font-size: 1.1vw;
+  font-weight: 500;
+  line-height: 1.5vw;
+  color: #888;
+  letter-spacing: 0.02rem;
+  margin-top: 2.2vw;
+}
+
+.nalist {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 3.2vw;
+}
+.nalist article {
+  margin-top: 2vw;
+}
+
+.nalist article img {
+  width: 11.5vw;
+  height: auto;
+  cursor: pointer;
+}
+
+.nalist article p {
+  display: none;
+}
+
+.number {
+  text-align: center;
+  margin-top: 2vw;
+}
+.number ul {
+  display: inline-flex;
+  gap: 1vw;
+}
+.number ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5vw;
+  font-size: 1.3vw;
+  cursor: pointer;
+}
+.number ul li i {
+  font-size: 1vw;
+}
 }

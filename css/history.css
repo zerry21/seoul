@@ -60,13 +60,14 @@
 
 .transition > .timg img{
   width: 21%;
+  height: auto;
   border-radius: 0.78vw;
 }
 .transition > .timg{
   display: flex;
   flex-wrap: wrap;
   gap: 1.5vw;
-  margin: 0 0 3vw 2vw;
+  margin: 0 0 3vw 4vw;
 }
 
 @media (max-width:1440px){
@@ -125,7 +126,7 @@
 }
 .transition > .timg{
   width: 52vw;
-  height: 37vw;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 1.5vw;
@@ -175,7 +176,9 @@
 }
 
 /* transition */
-.transition{width: 75%;}
+.transition{
+  width: 75%;
+}
 .transition > h3{
   font-size: 1.7vw;
   font-weight: 700;
@@ -189,7 +192,7 @@
 }
 .transition > .timg{
   width: 60vw;
-  height: 42vw;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 1.5vw;

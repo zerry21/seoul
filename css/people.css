@@ -297,6 +297,7 @@
   color: #666;
 }
 
+.jnumber{margin-top: 0.5vw;}
 .jnumber ul li {
   width: 1.5vw;
   height: 1.5vw;
@@ -308,6 +309,5 @@
 }
 .jnumber ul li i {
   font-size: 1.1vw;
-  padding-top: 0.1vw;
 }
 }
