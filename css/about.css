@@ -1,11 +1,12 @@
 .main1{
   width: 100%;
+  height: auto;
   display: flex;
 }
 
 .about{
   width: 12.24vw;
-  height: 125vw;
+  height: auto;
   border-left: 1px solid #BFBFBF;
   border-right: 1px solid #BFBFBF;
   margin-left: 16.5vw;
