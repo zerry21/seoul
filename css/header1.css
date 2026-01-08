@@ -295,7 +295,7 @@ nav {
 
   .menu article p:not(:first-child) {
     font-weight: 500;
-    font-size: 1.1vw;
+    font-size: 1.15vw;
     line-height: 2.2vw;
     letter-spacing: 0.03rem;
     color: #888;

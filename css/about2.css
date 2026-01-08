@@ -21,6 +21,9 @@
   background-color: #f1f1f1;
 }
 .about > article:nth-of-type(1){margin-top: 0.5vw;}
+.about > article:first-of-type > p {
+  font-weight: 700;
+}
 .about > article > p{
   font-size: 0.89vw;
   font-weight: 500;
@@ -58,9 +61,9 @@
   color: #888;
 }
 
-.about > article:nth-of-type(5){
+.about > article:nth-of-type(5) > p {
   color: #12298c;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 @media (max-width:1440px){

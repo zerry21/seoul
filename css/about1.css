@@ -21,6 +21,10 @@
   background-color: #f1f1f1;
 }
 .about > article:nth-of-type(1){margin-top: 0.5vw;}
+.about > article:first-of-type > p {
+  color: #12298c;
+  font-weight: 700;
+}
 .about > article > p{
   font-size: 0.89vw;
   font-weight: 500;
@@ -33,6 +37,10 @@
   line-height: 2.2vw;
   color: #888;
 }
+.about > article > p > a[href="people.html"]{
+  font-weight: 700;
+}
+
 
 .about > .box{
   display: none;
